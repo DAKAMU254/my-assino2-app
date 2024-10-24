@@ -1,0 +1,27 @@
+.book-item {  
+    border: 1px solid #ddd; /* Border around the book item */  
+    border-radius: 8px;     /* Rounded corners */  
+    padding: 16px;          /* Padding inside the book card */  
+    text-align: center;     /* Center the text */  
+    background-color: #fff; /* Background color */  
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */  
+  }  
+  
+  .book-item img {  
+    border-radius: 6px;    /* Rounded corners for the image */  
+    width: 100%;           /* Make the image responsive */  
+  }  
+  
+  .book-item h3 {  
+    margin: 10px 0;        /* Space around title */  
+  }  
+  
+  .book-item p {  
+    color: #555;           /* Change the color of the author text */  
+  }  
+  
+  /* Hover effect */  
+  .book-item:hover {  
+    transform: translateY(-5px); /* Lift effect */  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */  
+  }
